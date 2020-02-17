@@ -4,11 +4,11 @@
 
 # 配置面板
 
-![screenshot](https://github.com/zc149352394/Easy-Fishing/blob/master/screenshot/01.png)
+![screenshot](https://github.com/tera-mod/Tera-Plug-Ins/blob/master/screenshot/01.png)
 
-![screenshot](https://github.com/zc149352394/Easy-Fishing/blob/master/screenshot/02.png)
+![screenshot](https://github.com/tera-mod/Tera-Plug-Ins/blob/master/screenshot/02.png)
 
-![screenshot](https://github.com/zc149352394/Easy-Fishing/blob/master/screenshot/03.png)
+![screenshot](https://github.com/tera-mod/Tera-Plug-Ins/blob/master/screenshot/03.png)
 
 # 命令
 
