@@ -165,8 +165,8 @@ module.exports = function Tera_Plug_Ins(mod) {
 			var abn = myConsumables.find(obj => obj.id == event.id)
 			if (abn && Date.now() > abn.startTime + Number(abn.duration) - 2000) {
 				if (mod.settings.consumables) {
-					MSG.alert((mod.settings.consumablesInfo.find(p => p.ID == event.id).msg + " 已过期"), 44)
-					MSG.chat(MSG.YEL(mod.settings.consumablesInfo.find(p => p.ID == event.id).msg) + " 已过期")
+					MSG.alert((mod.settings.consumablesInfo.find(p => p.ID == event.id).msg + " expired"), 44)
+					MSG.chat(MSG.YEL(mod.settings.consumablesInfo.find(p => p.ID == event.id).msg) + " expired")
 				}
 				myConsumables = myConsumables.filter(obj => obj.id != event.id)
 			}
@@ -210,7 +210,7 @@ module.exports = function Tera_Plug_Ins(mod) {
 	
 	// Cutscene-Skip
 	mod.hook('S_PLAY_MOVIE', 1, event => {
-		if (mod.settings.sutsceneSkip) {
+		if (mod.settings.cutsceneSkip) {
 			mod.send('C_END_MOVIE', 1, {
 				movie: event.movie,
 				unk: true
@@ -332,19 +332,19 @@ module.exports = function Tera_Plug_Ins(mod) {
 	mod.hook('S_EACH_SKILL_RESULT', 14, event => {
 		switch (event.type) {
 			case 1:
-				// 伤害(输出)
+				// Damage (output)
 				if (!mod.settings.damageNumber && event.target != mod.game.me.gameId) {
 					event.type = 0
 					return true
 				}
-				// 伤害(掉血)
+				// Damage (blood loss)
 				if (!mod.settings.damageNumberMe && event.target == mod.game.me.gameId) {
 					event.type = 0
 					return true
 				}
 				break
 			case 2:
-				// 治疗(队员)
+				// Treatment (player)
 				if (!mod.settings.healNumber && event.target != mod.game.me.gameId) {
 					event.type = 0
 					return true

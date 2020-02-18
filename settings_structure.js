@@ -1,12 +1,12 @@
 module.exports = [
     {
         "key": "cameraControl",
-        "name": "镜头距离 - 自定义",
+        "name": "Camera - Control",
         "type": "bool"
     },
     {
         "key": "setDistance",
-        "name": "镜头距离 - 设定大小",
+        "name": "Set Distance",
         "type": "number",
         "min": 500,
         "max": 2000,
@@ -14,147 +14,147 @@ module.exports = [
     },
     {
         "key": "vanguard",
-        "name": "自动提交 - H/每日/每周奖励",
+        "name": "Auto - Vanguard",
         "type": "bool"
     },
     {
         "key": "guildQuest",
-        "name": "自动提交 - 公会任务 完成/接收",
+        "name": "Auto - GuildQuest",
         "type": "bool"
     },
     {
         "key": "redirect",
-        "name": "尾王传送 - 单人试炼本 VIP本",
+        "name": "HightWatch Redirect",
         "type": "bool"
     },
     {
         "key": "inspect",
-        "name": "查询装备 - 左键/右键 点击昵称",
+        "name": "Auto - inspect",
         "type": "bool"
     },
     {
         "key": "flyMore",
-        "name": "无限能量 - 任意飞行器",
+        "name": "Fly forever",
         "type": "bool"
     },
     {
         "key": "unLockFlying",
-        "name": "解锁飞行 - 空岛地图(需完成主线)",
+        "name": "Unlock Fly (Exodor)",
         "type": "bool"
     },
     {
         "key": "collectBalls",
-        "name": "自动吸球 - 飞行守护任务",
+        "name": "Auto - Collect Balls",
         "type": "bool"
     },
     {
         "key": "afk",
-        "name": "挂机防掉 - 阻止 返回角色菜单",
+        "name": "AFKER",
         "type": "bool"
     },
     {
         "key": "abnormalityBlack",
-        "name": "屏幕异常 - 移除(啤酒)扭曲 等效果",
+        "name": "Abnormality Blocker",
         "type": "bool"
     },
     {
         "key": "sutsceneSkip",
-        "name": "跳过动画 - 略过CG免按ESC",
+        "name": "Cutscene Skip",
         "type": "bool"
     },
     {
         "key": "socialAnimation",
-        "name": "闲置动作 - 禁用 拍手/伸懒腰",
+        "name": "Remove IDLE Animation",
         "type": "bool"
     },
     {
         "key": "artisanIcons",
-        "name": "工匠图标 - 移除(非自己)",
+        "name": "Remove Artisan icon (not yourself)",
         "type": "bool"
     },
     {
         "key": "deadAnimation",
-        "name": "死亡效果 - 移除(尸体)灰烬",
+        "name": "Remove Death animation",
         "type": "bool"
     },
     {
         "key": "noBodyBlock",
-        "name": "碰撞体积 - 消除队员与自己",
+        "name": "anti - bodyblock",
         "type": "bool"
     },
     {
         "key": "consumables",
-        "name": "消耗过期 - 羊肉/秘药/勇猛/子弹/水晶保护",
+        "name": "Expired-Lamb / Canephora / Brave / Crystal bind",
         "type": "bool"
     },
     {
         "key": "noMoteCancel",
-        "name": "技能施法 - 精气晶球(元素)移动无中断",
+        "name": "No MoteCancel (Mystic)",
         "type": "bool"
     },
     {
         "key": "spawnMotes",
-        "name": "精气晶球 - 屏蔽(元素)制造的球",
+        "name": "Hide Mystic's Orb",
         "type": "bool"
     },
     {
         "key": "spawnNPC",
-        "name": "元素召唤 忍者圆木 哨兵塔 机器人 影子",
+        "name": "Hide Ninja log ",
         "type": "bool"
     },
     {
         "key": "archerTraps",
-        "name": "显示PVP [弓箭]的陷阱位置",
+        "name": "show Archer Traps PVP",
         "type": "bool"
     },
     {
         "key": "successChance",
-        "name": "显示 升级[遗物/圣物]成功率",
+        "name": "Show Success Rate",
         "type": "bool"
     },
     {
         "key": "damageNumber",
-        "name": "显示 (输出)伤害数字",
+        "name": "Hide Damage Number (Reveive)",
         "type": "bool"
     },
     {
         "key": "damageNumberMe",
-        "name": "显示 (掉血)伤害数字",
+        "name": "Hide Damage Number (Given)",
         "type": "bool"
     },
     {
         "key": "healNumber",
-        "name": "显示 治疗数字",
+        "name": "Hide Heal Number (Reveive)",
         "type": "bool"
     },
     {
         "key": "healNumberMe",
-        "name": "显示 治疗数字(自己)",
+        "name": "Hide Heal Number (given)",
         "type": "bool"
     },
     {
         "key": "mpNumber",
-        "name": "显示 回蓝数字",
+        "name": "Hide Mana Number (Reveive)",
         "type": "bool"
     },
     {
         "key": "mpNumberMe",
-        "name": "显示 回蓝数字(自己)",
+        "name": "Hide Mana Number (given)",
         "type": "bool"
     },
     {
         "key": "lockonYouMsg",
-        "name": "显示 被锁定[绿字消息]",
+        "name": "Hice Lock on You Msg",
         "type": "bool"
     },
     {
         "key": "findItemID",
-        "name": "打印 - 鼠标悬停位置 物品ID",
+        "name": "Find Item ID",
         "type": "bool"
     },
     {
         "key": "findMonsterID",
-        "name": "打印 - 击杀怪物的 huntingZoneId_templateId",
+        "name": "Find Monster Id + huntingZoneId_templateId",
         "type": "bool"
     }
 ];

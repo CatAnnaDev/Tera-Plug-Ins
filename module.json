@@ -1,16 +1,16 @@
 {
     "name": "Tera-Plug-Ins",
     "options": {
-        "niceName": "插件合集",
+        "niceName": "Tera-Plug-Ins",
         "guiName": "Tera-Plug-Ins",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 1
     },
-    "author": "ZC",
+    "author": "ZC + PsykoDev",
     "description": "TERA Online 小功能插件合集 懒人福利",
-    "servers": ["https://raw.githubusercontent.com/tera-mod/Tera-Plug-Ins/master/"],
-    "supportUrl": "https://github.com/tera-mod/Tera-Plug-Ins/issues",
+    "servers": ["https://raw.githubusercontent.com/PsykoDev/Tera-Plug-Ins/master/"],
+    "supportUrl": "https://github.com/PsykoDev/Tera-Plug-Ins/issues",
     "dependencies": {
         "tera-message": "https://raw.githubusercontent.com/tera-mod/tera-message/master/module.json"
     },
